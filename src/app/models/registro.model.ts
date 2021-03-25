@@ -9,6 +9,7 @@ export class Registro {
         this.format = format;
         this.text = text;
         this.created = new Date();
+        this.determinateType();
     }
 
     private determinateType() {
